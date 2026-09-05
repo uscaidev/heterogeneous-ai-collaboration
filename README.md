@@ -142,7 +142,7 @@ docs/  method.md          방법 정본            log-2026-08-27.md   교신 �
 - 막힌 세션 구출하기
 - 병렬 작업으로 시간 단축하기
 
-**대상 독자**: "Claude도 좋고 GPT도 좋은데, 혼자 쓰기엔 아깝지 않을까?" 하는 개발자
+**대상 독자**: "Claude도 좋고 GPT도 좋은데, 어느게 더 좋을까? 각자 장점만 쓰는 게 좋지 않을까?" 하는 개발자
 
 👉 [**전문 읽기** `docs/article-heterogeneous-llm-collaboration.md`](docs/article-heterogeneous-llm-collaboration.md)
 
