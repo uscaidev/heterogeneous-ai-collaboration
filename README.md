@@ -42,8 +42,8 @@
 **준비**: macOS · Terminal.app · 같은 프로젝트 폴더에서 탭마다 `claude` 또는 `codex` 실행. 최초 1회 macOS가 "Terminal 제어 허용"을 묻는다.
 
 ```sh
-git clone https://github.com/uscaidev/new-communication-with-ai-agents
-cd new-communication-with-ai-agents
+git clone https://github.com/uscaidev/heterogeneous-ai-collaboration
+cd heterogeneous-ai-collaboration
 
 bin/list_agents.sh                       # 어느 tty에 누가 떠 있나
 #  95839 ttys001 …/bin/codex

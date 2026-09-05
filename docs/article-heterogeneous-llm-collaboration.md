@@ -23,16 +23,21 @@ Claude와 GPT는 같은 "대규모 언어 모델"이지만 **같은 일을 하�
 
 **둘을 교차로 검토하면?** 각자의 맹점이 보입니다.
 
-### 실제로 측정된 결과
+### 실제로 작동하는 것을 확인했습니다
 
-2026년 8월, 같은 프로젝트에서 Claude 2명, Codex 2명이 협업한 실험:
+2026년 8월-9월, 같은 프로젝트에서 Claude 2명, Codex 2명이 협업한 실험:
 
 | 항목 | 결과 |
 |---|---|
-| 교차 검토 후 버그 발견 | 기존 대비 **35% 증가** |
-| 코드 간결화 제안 | Claude/GPT 단독 대비 **2배** |
-| 블라인드 평가 일관성 | **9/10 동의** (다른 모델 평가자) |
-| 막힌 세션 구출 성공 | **8/8** (평균 2.3분 내 진행) |
+| 동시 기록 (3명이 같은 파일에) | **충돌·유실 0건** ✓ |
+| 편집 범위 준수 (자기 줄만) | **3/3 준수** ✓ |
+| 호출→응답 (지시 전달 성공) | **3/3 성공** (평균 10-40초) ✓ |
+| 코드 결함 독립 발견 | **3명 모두 같은 결함 지적** ✓ |
+
+**예상되는 효과** (실제 프로젝트에서):
+- 교차 검토로 각자 놓친 부분 발견 가능
+- 병렬 작업으로 시간 단축 가능
+- 블라인드 평가로 편향 제거 가능
 
 ---
 
@@ -302,8 +307,8 @@ bin/watch_board.sh ~/my-project/HANDOFF.md "^- T-"
 ## 🚀 지금 시작하기
 
 ```bash
-git clone https://github.com/uscaidev/new-communication-with-ai-agents
-cd new-communication-with-ai-agents
+git clone https://github.com/uscaidev/heterogeneous-ai-collaboration
+cd heterogeneous-ai-collaboration
 bin/handoff_init.sh ~/your-project
 cat examples/HANDOFF.md  # 템플릿 확인
 ```
@@ -318,6 +323,6 @@ cat examples/HANDOFF.md  # 템플릿 확인
 
 ---
 
-**📝 원본 기술 노트**: [새로운 AI 에이전트 간 소통](https://github.com/uscaidev/new-communication-with-ai-agents)
+**📝 원본 기술 노트**: [이기종 AI 에이전트 협업](https://github.com/uscaidev/heterogeneous-ai-collaboration)
 
 **환경**: macOS 26.6.2 · Terminal.app 2.15 · Claude Code 2.1.247 · Codex CLI 0.150.1
