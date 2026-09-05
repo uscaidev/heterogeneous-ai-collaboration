@@ -127,3 +127,33 @@ docs/  method.md          방법 정본            log-2026-08-27.md   교신 �
 ```
 
 환경: macOS 26.6.2 · Terminal.app 2.15 · Claude Code 2.1.247 · Codex CLI 0.150.1. MIT.
+
+---
+
+## 📖 읽을거리
+
+### 이기종 AI 에이전트와의 협업: 각자의 성능을 극한까지 쓰는 법
+
+이 노트의 기술을 **왜** 쓰는지, **뭐가** 달라지는지에 대한 기사입니다.
+
+- 각 모델의 강점 극대화 (Claude의 신중함 + GPT의 창의성)
+- 상호평가로 편향 제거하기
+- 게시판으로 업무 추적하기
+- 막힌 세션 구출하기
+- 병렬 작업으로 시간 단축하기
+
+**대상 독자**: "Claude도 좋고 GPT도 좋은데, 혼자 쓰기엔 아깝지 않을까?" 하는 개발자
+
+👉 [**전문 읽기** `docs/article-heterogeneous-llm-collaboration.md`](docs/article-heterogeneous-llm-collaboration.md)
+
+---
+
+## 🤝 기여 & 피드백
+
+이 방법은 **한 번의 실험**(2026-08-27)에 기반합니다. 다음을 해보셨다면 이슈나 PR로 알려주세요:
+
+- E4 대칭 채널 (Codex → Claude)
+- E5 다른 터미널 앱 (iTerm2, tmux, Windows Terminal)
+- E6 Codex Working 중 전송 큐잉
+- E7 3+ 에이전트 동시 저장
+- E9 실제 업무 완주 (이 노트는 한 줄 편집만 테스트했음)
