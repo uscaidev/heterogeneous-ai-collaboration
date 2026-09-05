@@ -1,5 +1,7 @@
 # 터미널 간 AI 에이전트 통신 — Claude Code ↔ Codex CLI 실측 방법
 
+**📍 macOS Terminal.app 기준** (Windows Terminal, iTerm2, tmux은 미지원)
+
 > 한 대의 Mac에서 서로 다른 회사의 AI 코딩 에이전트(Anthropic Claude Code, OpenAI Codex CLI)를 **서로 대화시키고 협업시키는** 방법. 공식 API·플러그인 없이, 운영체제가 이미 주는 것(터미널·파일·AppleScript)만으로 됨. 2026-08-27 실측.
 
 ## 0. 요약
